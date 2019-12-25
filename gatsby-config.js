@@ -7,15 +7,21 @@
 module.exports = {
   /* Your site config here */
 
+  siteMetadata: {
+    title: `Revson - Multipurpose React Gatsby Template`,
+    description: `Revson is a multipurpose template built with Gatsby Js React Js`,
+    author: "theshahriyar",
+  },
+
   plugins: [
     `gatsby-plugin-sass`,
     {
-      resolve: 'gatsby-plugin-web-font-loader',
+      resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ['Poppins', 'sans-serif']
-        }
-      }
+          families: ["Poppins", "sans-serif"],
+        },
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -24,7 +30,12 @@ module.exports = {
         path: `${__dirname}/src/fonts/`,
       },
     },
-  ]
-
-
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+  ],
 }
