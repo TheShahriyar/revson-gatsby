@@ -194,13 +194,13 @@ Author URI: http://theshahriyar.com
 //-----------------------------------------
 
 
-#main-slide .item {
-    //height: 700px;
+#main-slide .carousel-item {
+    height: 100vh;
 }
 
 #main-slide {
 	
-	.item {
+	.carousel-item {
 
 		img {
 			width: 100%;
@@ -234,8 +234,8 @@ Author URI: http://theshahriyar.com
 		li{
 			width: 14px !important;
 			height: 14px !important;
-			border: 2px solid #fff !important;
-			margin: 1px !important;
+			margin: 0 2px !important;
+			border-radius: 100%;
 		}
 	}
 
@@ -327,7 +327,8 @@ Author URI: http://theshahriyar.com
  
 
 
-#main-slide .slider-content h2.white, #main-slide .slider-content h3.white {
+#main-slide .slider-content h2.white, 
+#main-slide .slider-content h3.white {
     color: #fff;
 }
 
@@ -367,17 +368,17 @@ Author URI: http://theshahriyar.com
 }
 
 /*-- Animation --*/
-.carousel .item.active .animated1 {
+.carousel .carousel-item.active .animated1 {
 	-webkit-animation: lightSpeedIn 1s ease-in 800ms both;
 	animation: lightSpeedIn 1s ease-in 800ms both;
 }
 
-.carousel .item.active .animated2 {
+.carousel .carousel-item.active .animated2 {
 	-webkit-animation: bounceIn 1s ease-in 800ms both;
 	animation: bounceIn 1s ease-in 800ms both;
 }
 
-.carousel .item.active .animated3 {
+.carousel .carousel-item.active .animated3 {
 	-webkit-animation: flipInX 2s ease-in-out 800ms both;
 	animation: flipInX 2s ease-in-out 800ms both;
 }
@@ -410,7 +411,7 @@ Author URI: http://theshahriyar.com
 		font-size: 16px;
 	}
     
-    #main-slide .item {
+    #main-slide .carousel-item {
         //height: 550px;
     }
     
@@ -443,7 +444,7 @@ Author URI: http://theshahriyar.com
 	}
     
     
-    #main-slide .item {
+    #main-slide .carousel-item {
         //height: 400px;
     }
     
@@ -2093,12 +2094,14 @@ and (max-width : 1199px) {
 
 
 .testimonial-item {
-
 	width: 90%;
 	margin: 0 auto;
+	cursor: e-resize;
 	
 	img {
 		width: 100px;
+		display: inline-block !important;
+		border-radius: 100%;
 	}
 
 	p {

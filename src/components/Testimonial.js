@@ -6,10 +6,12 @@ import "slick-carousel/slick/slick-theme.css"
 import TestiImage1 from "../images/testimonials/1.jpg"
 import TestiImage2 from "../images/testimonials/3.jpg"
 import BG from "../images/bg/bg2.jpg"
+import SectionTitle from "./SectionTitle/SectionTitle"
 
 const Testimonial = () => {
   let settings = {
-    dots: true,
+    dots: false,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -22,8 +24,8 @@ const Testimonial = () => {
     >
       <div className="container">
         <div className="row">
-          <div className="section-title text-center white">
-            <h3>What People Say</h3>
+          <div className="col-md-12">
+            <SectionTitle title="What people say" style="white" />
           </div>
         </div>
         <div className="row">

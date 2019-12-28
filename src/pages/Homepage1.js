@@ -17,11 +17,13 @@ import PricingTable from "../components/PricingTable"
 import Testimonial from "../components/Testimonial"
 import Clients from "../components/Clients"
 import FooterStyle1 from "../components/Footer/FooterStyle1"
+import BootstrapSlider from "../components/Slideshow/BootstrapSlider"
 
 const Homepage1 = () => {
   return (
     <>
       <HeaderStyle1 />
+      <BootstrapSlider/>
 
       {/* Start Welcome Section */}
       <section className="pad-t80 pad-b50">
@@ -329,9 +331,7 @@ const Homepage1 = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="section-title text-center">
-                <h3>Pricing Chart</h3>
-              </div>
+              <SectionTitle title="Pricing Chart" />
             </div>
           </div>
           <PricingTable />

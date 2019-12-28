@@ -12,6 +12,7 @@ import {
   FaDribbble,
   FaGooglePlusG,
 } from "react-icons/fa"
+import ProgressBar from "../ProgressBar"
 
 const TeamStyle1 = () => {
   return (
@@ -111,65 +112,25 @@ const TeamStyle1 = () => {
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">Web Design</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="65"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="75" />
                   </div>
                 </div>
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">Joomla</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="95"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="95" />
                   </div>
                 </div>
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">WordPress</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="60"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="60" />
                   </div>
                 </div>
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">Javascript</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="75"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="75" />
                   </div>
                 </div>
               </div>
@@ -235,69 +196,29 @@ const TeamStyle1 = () => {
               </div>
             </div>
             <div className="col-md-4 col-sm-4">
-              <div className="skill-section">
+            <div className="skill-section">
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">Web Design</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="65"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="75" />
                   </div>
                 </div>
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">Joomla</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="95"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="95" />
                   </div>
                 </div>
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">WordPress</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="60"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="60" />
                   </div>
                 </div>
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">Javascript</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="75"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="75" />
                   </div>
                 </div>
               </div>
@@ -362,69 +283,29 @@ const TeamStyle1 = () => {
               </div>
             </div>
             <div className="col-md-4 col-sm-4">
-              <div className="skill-section">
+            <div className="skill-section">
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">Web Design</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="65"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="75" />
                   </div>
                 </div>
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">Joomla</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="95"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="95" />
                   </div>
                 </div>
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">WordPress</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="60"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="60" />
                   </div>
                 </div>
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">Javascript</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="75"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="75" />
                   </div>
                 </div>
               </div>
@@ -493,65 +374,25 @@ const TeamStyle1 = () => {
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">Web Design</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="65"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="75" />
                   </div>
                 </div>
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">Joomla</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="95"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="95" />
                   </div>
                 </div>
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">WordPress</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="60"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="60" />
                   </div>
                 </div>
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">Javascript</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="75"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="75" />
                   </div>
                 </div>
               </div>
@@ -620,65 +461,25 @@ const TeamStyle1 = () => {
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">Web Design</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="65"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="75" />
                   </div>
                 </div>
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">Joomla</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="95"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="95" />
                   </div>
                 </div>
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">WordPress</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="60"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="60" />
                   </div>
                 </div>
                 <div className="skill-shortcode">
                   <div className="skill">
                     <span className="skill-name">Javascript</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-percentage="75"
-                      >
-                        <span className="progress-bar-percentage pull-right">
-                          <span className="count"></span> %
-                        </span>
-                      </div>
-                    </div>
+                    <ProgressBar width="75" />
                   </div>
                 </div>
               </div>
