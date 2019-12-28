@@ -1,5 +1,7 @@
 import React from "react"
 import BG from "../../images/bg/bg3.jpg"
+import Gallery from "../Gallery"
+import {FaFacebookF,FaLinkedinIn,FaPinterest,FaDribbble,FaTwitter,FaRss,FaPhoneVolume,FaMapMarkerAlt} from "react-icons/fa"
 
 const FooterStyle1 = () => {
   return (
@@ -67,7 +69,7 @@ const FooterStyle1 = () => {
             <div className="footer-title">
               <h3>Our Gallery</h3>
             </div>
-            <div className="gallery"></div>
+            <Gallery/>
           </div>
           <div className="col-md-3">
             <div className="footer-title">
@@ -89,36 +91,12 @@ const FooterStyle1 = () => {
             </form>
             <div className="social-top">
               <ul className="top-social">
-                <li>
-                  <a href="#" target="_blank">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank">
-                    <i className="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank">
-                    <i className="fa fa-pinterest"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank">
-                    <i className="fa fa-dribbble"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank">
-                    <i className="fa fa-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank">
-                    <i className="fa fa-rss"></i>
-                  </a>
-                </li>
+                <li><a href="#" target="_blank"><FaFacebookF /></a></li>
+                <li><a href="#" target="_blank"><FaTwitter/></a></li>
+                <li><a href="#" target="_blank"><FaPinterest/></a></li>
+                <li><a href="#" target="_blank"><FaDribbble/></a></li>
+                <li><a href="#" target="_blank"><FaLinkedinIn/></a></li>
+                <li><a href="#" target="_blank"><FaRss/></a></li>
               </ul>
             </div>
           </div>

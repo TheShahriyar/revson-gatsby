@@ -7,7 +7,7 @@ import Human from "../images/others/02.png"
 import BG6 from "../images/bg/bg6.jpg"
 import FeatureStyle2 from "../components/Features/FeatureStyle2"
 import CallToAction2 from "../components/CallToAction/CallToAction2"
-import Portfolio from "../components/Portfolio/Portfolio"
+import PortfolioCol3Style1 from "../components/Portfolio/PortfolioCol3Style1"
 import CountUp from "react-countup"
 import TeamStyle1 from "../components/Team/TeamStyle1"
 import Blog1 from "../images/others/img-4.jpg"
@@ -176,13 +176,20 @@ const Homepage1 = () => {
       {/* End Call to Action Section*/}
 
       {/* Start Portfolio Section*/}
-      <div className="container">
-        <div className="row">
-          <div className="col-md-12">
-            <Portfolio />
+      <section className="pad-t80 pad-b50">
+        <div className="container">
+          <div className="row">
+              <div className="col-md-12">
+                  <SectionTitle title="Revson's Portfolio" />
+              </div>
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+              <PortfolioCol3Style1 />
+            </div>
           </div>
         </div>
-      </div>
+      </section>
       {/* End Portfolio Section*/}
 
       {/* Start Counter Section*/}

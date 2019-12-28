@@ -1162,7 +1162,7 @@ ul.filter li {
   display: inline-block;
   margin: 0 5px;
 }
-ul.filter li a {
+ul.filter li button {
   display: inline-block;
   text-decoration: none;
   font-size: 13px;
@@ -1175,11 +1175,14 @@ ul.filter li a {
   -webkit-transition: all 0.2s ease-in-out;
 }
 
-ul.filter li a:hover,
-ul.filter li a.active {
+ul.filter li button:hover,
+ul.filter li button.active {
   border-color: $brand-primary;
   background: $brand-primary;
   color: #ffffff;
+}
+ul.filter li button:focus {
+	outline: 0;
 }
 
 
@@ -1238,7 +1241,7 @@ ul.filter li a.active {
 
 			h4 {
 				color: #434343;
-				font-size: 18px;
+				font-size: 18px !important;
 				//font-weight: 400;
 				color: #ffffff;
 				text-transform: uppercase;
@@ -1384,6 +1387,7 @@ ul.filter li a.active {
 		h4 {
 			color: #fff;
 			margin-bottom: 5px;
+			font-size: 18px;
 		}
 	}
 
@@ -2963,6 +2967,10 @@ ul.logo-group {
 		width: 31%;
 		margin-right: 5px;
 		margin-bottom: 5px;
+
+		a {
+			cursor: pointer;
+		}
 	}
 }
 
@@ -3086,6 +3094,16 @@ ul.logo-group {
 		margin-bottom: 30px;
 		color: #fff;
 	}
+}
+
+
+
+//---------------------------------------------
+// Plugin customization
+//---------------------------------------------
+.ril__toolbar {
+	left: auto !important;
+	top: 10%;
 }
 
 
