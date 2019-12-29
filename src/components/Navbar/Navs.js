@@ -105,7 +105,7 @@ const Navs = ({style}) => {
                                             <li><Link to="bootstrap-grid.html">Bootstrap Grid</Link></li>
                                             <li><Link to="slider-bootstrap.html">Carousel</Link></li>
                                             <li><Link to="call-to-action.html">Call to Action</Link></li>
-                                            <li><Link to="client.html">Clients</Link></liLink
+                                            <li><Link to="client.html">Clients</Link></li>
                                             <li><Link to="divider.html">Divider</Link></li>
                                         </ul>
                                     </div>
