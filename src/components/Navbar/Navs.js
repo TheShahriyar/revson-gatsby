@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from "gatsby"
-import Logo from "../../images/logo/logo.png"
 import {FaAngleRight} from "react-icons/fa"
 
 const Navs = ({style}) => {
@@ -8,7 +7,7 @@ const Navs = ({style}) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className={`navbar-nav ${style}`}>
                 <li className="nav-item drop">
-                    <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Homepage
                     </a>
                     <ul className="drop-down" aria-labelledby="navbarDropdown">
@@ -22,110 +21,110 @@ const Navs = ({style}) => {
                     </ul>
                 </li>
                 <li className="nav-item drop">
-                    <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Features
                     </a>
                     <ul className="drop-down">
                         <li>
-                            <a href="#">Header<FaAngleRight/></a>
+                            <a to="#">Header<FaAngleRight/></a>
                             <ul className="drop-down level3">
-                                <li><a href="header-1.html">Header 1</a></li>
-                                <li><a href="header-2.html">Header 2</a></li>
-                                <li><a href="header-3.html">Header 3</a></li>
-                                <li><a href="header-4.html">Header 4</a></li>
-                                <li><a href="header-5.html">Header 5</a></li>
-                                <li><a href="header-6.html">Header 6</a></li>
-                                <li><a href="header-7.html">Header 7</a></li>
-                                <li><a href="header-8.html">Header 8</a></li>
+                                <li><Link to="header-1.html">Header 1</Link></li>
+                                <li><Link to="header-2.html">Header 2</Link></li>
+                                <li><Link to="header-3.html">Header 3</Link></li>
+                                <li><Link to="header-4.html">Header 4</Link></li>
+                                <li><Link to="header-5.html">Header 5</Link></li>
+                                <li><Link to="header-6.html">Header 6</Link></li>
+                                <li><Link to="header-7.html">Header 7</Link></li>
+                                <li><Link to="header-8.html">Header 8</Link></li>
                             </ul>
                         </li>
-                        <li><a href="index.html">Slideshow<FaAngleRight/></a>
+                        <li><a to="index.html">Slideshow<FaAngleRight/></a>
                             <ul className="drop-down level3">
-                                <li><a href="slider-bootstrap.html">Bootstrap Slider</a></li>
-                                <li><a href="banner-1.html">Banner 1</a></li>
-                                <li><a href="banner-2.html">Banner 2</a></li>
-                                <li><a href="banner-3.html">Banner 3</a></li>
-                                <li><a href="banner-video-bg.html">Banner Video BG</a></li>
+                                <li><Link to="slider-bootstrap.html">Bootstrap Slider</Link></li>
+                                <li><Link to="banner-1.html">Banner 1</Link></li>
+                                <li><Link to="banner-2.html">Banner 2</Link></li>
+                                <li><Link to="banner-3.html">Banner 3</Link></li>
+                                <li><Link to="banner-video-bg.html">Banner Video BG</Link></li>
                             </ul>
                         </li>
-                        <li><a href="index.html">Footer<FaAngleRight/></a>
+                        <li><a to="index.html">Footer<FaAngleRight/></a>
                             <ul className="drop-down level3">
-                                <li><a href="footer-1.html">Footer 1</a></li>
-                                <li><a href="footer-2.html">Footer 2</a></li>
-                                <li><a href="footer-3.html">Footer 3</a></li>
+                                <li><Link to="footer-1.html">Footer 1</Link></li>
+                                <li><Link to="footer-2.html">Footer 2</Link></li>
+                                <li><Link to="footer-3.html">Footer 3</Link></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
                 <li className="nav-item drop">
-                    <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <Link className="nav-link" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Pages
-                    </a>
+                    </Link>
                     <ul className="drop-down" aria-labelledby="navbarDropdown">
-                        <li><a href="#">About Us 1</a></li>
-                        <li><a href="#">About Us 2</a></li>
-                        <li><a className="dropdown-item" href="#">Service Page 1</a></li>
-                        <li><a href="#">Service Page 2</a></li>
-                        <li><a href="#">Team Member</a></li>
-                        <li><a href="#">Contact Page</a></li>
-                        <li><a href="#">F.A.Q</a></li>
+                        <li><Link to="#">About Us 1</Link></li>
+                        <li><Link to="#">About Us 2</Link></li>
+                        <li><Link to="#">Service Page 1</Link></li>
+                        <li><Link to="#">Service Page 2</Link></li>
+                        <li><Link to="#">Team Member</Link></li>
+                        <li><Link to="#">Contact Page</Link></li>
+                        <li><Link to="#">F.A.Q</Link></li>
                     </ul>
                 </li>
                 <li className="nav-item drop">
-                    <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <Link className="nav-link" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Portfolio
-                    </a>
+                    </Link>
                     <ul className="drop-down" aria-labelledby="navbarDropdown">
-                        <li><a href="#">Portfolio 2 Col St 1</a></li>
-                        <li><a href="#">Portfolio 2 Col St 2</a></li>
-                        <li><a href="#">Portfolio 3 Col St 1</a></li>
-                        <li><a href="#">Portfolio 3 Col St 2</a></li>
-                        <li><a href="#">Portfolio 4 Col St 1</a></li>
-                        <li><a href="#">Portfolio 4 Col St 2</a></li>
+                        <li><Link to="#">Portfolio 2 Col St 1</Link></li>
+                        <li><Link to="#">Portfolio 2 Col St 2</Link></li>
+                        <li><Link to="#">Portfolio 3 Col St 1</Link></li>
+                        <li><Link to="#">Portfolio 3 Col St 2</Link></li>
+                        <li><Link to="#">Portfolio 4 Col St 1</Link></li>
+                        <li><Link to="#">Portfolio 4 Col St 2</Link></li>
                     </ul>
                 </li>
                 <li className="nav-item megadrop">
-                    <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <Link className="nav-link" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Elements
-                    </a>
+                    </Link>
                     <div className="megadrop-down">
                         <div className="container">
                             <div className="dropdown w-100">
                                 <div className="row">
                                     <div className="col-md-3 col-sm-6">
                                         <ul>
-                                            <li><a href="alert.html">Alert</a></li>
-                                            <li><a href="accordion.html">Accordion</a></li>
-                                            <li><a href="animated-counter.html">Animated Counter</a></li>
-                                            <li><a href="blockquote.html">Block Quote</a></li>
-                                            <li><a href="blog-content.html">Blog Content</a></li>
+                                            <li><Link to="alert.html">Alert</Link></li>
+                                            <li><Link to="accordion.html">Accordion</Link></li>
+                                            <li><Link to="animated-counter.html">Animated Counter</Link></li>
+                                            <li><Link to="blockquote.html">Block Quote</Link></li>
+                                            <li><Link to="blog-content.html">Blog Content</Link></li>
                                         </ul>
                                     </div>
                                     <div className="col-md-3 col-sm-6">
                                         <ul>
-                                            <li><a href="bootstrap-grid.html">Bootstrap Grid</a></li>
-                                            <li><a href="slider-bootstrap.html">Carousel</a></li>
-                                            <li><a href="call-to-action.html">Call to Action</a></li>
-                                            <li><a href="client.html">Clients</a></li>
-                                            <li><a href="divider.html">Divider</a></li>
+                                            <li><Link to="bootstrap-grid.html">Bootstrap Grid</Link></li>
+                                            <li><Link to="slider-bootstrap.html">Carousel</Link></li>
+                                            <li><Link to="call-to-action.html">Call to Action</Link></li>
+                                            <li><Link to="client.html">Clients</Link></liLink
+                                            <li><Link to="divider.html">Divider</Link></li>
                                         </ul>
                                     </div>
                                     <div className="col-md-3 col-sm-6">
                                         <ul>
-                                            <li><a href="dropcap.html">Dropcap</a></li>
-                                            <li><a href="error-page.html">Error</a></li>
-                                            <li><a href="faq.html">F.A.Q</a></li>
-                                            <li><a href="feature-page.html">Feature Box</a></li>
-                                            <li><a href="img-content.html">Image Content</a></li>
+                                            <li><Link to="dropcap.html">Dropcap</Link></li>
+                                            <li><Link to="error-page.html">Error</Link></li>
+                                            <li><Link to="faq.html">F.A.Q</Link></li>
+                                            <li><Link to="feature-page.html">Feature Box</Link></li>
+                                            <li><Link to="img-content.html">Image Content</Link></li>
                                         </ul>
                                     </div>
                                     <div className="col-md-3 col-sm-6">
                                         <ul className="last-child">
-                                            <li><a href="piechart.html">Pie Chart</a></li>
-                                            <li><a href="pricing-table.html">Pricing Table</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="testimonial.html">Testimonial</a></li>
-                                            <li><a href="typography.html">Typography</a></li>
+                                            <li><Link to="piechart.html">Pie Chart</Link></li>
+                                            <li><Link to="pricing-table.html">Pricing Table</Link></li>
+                                            <li><Link to="team.html">Team</Link></li>
+                                            <li><Link to="testimonial.html">Testimonial</Link></li>
+                                            <li><Link to="typography.html">Typography</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -134,22 +133,22 @@ const Navs = ({style}) => {
                     </div>
                 </li>
                 <li className="nav-item drop">
-                    <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <Link className="nav-link" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Blog
-                    </a>
+                    </Link>
                     <ul className="drop-down" aria-labelledby="navbarDropdown">
-                        <li><a className="dropdown-item" href="#">Blog Full Width</a></li>
-                        <li><a className="dropdown-item" href="#">Blog Left Sidebar</a></li>
-                        <li><a className="dropdown-item" href="#">Blog Right Sidebar</a></li>
-                        <li><a className="dropdown-item" href="#">Blog Single Page</a></li>
-                        <li><a className="dropdown-item" href="#">Single Left Sidebar</a></li>
-                        <li><a className="dropdown-item" href="#">Single Right Sidebar</a></li>
+                        <li><Link className="dropdown-item" to="#">Blog Full Width</Link></li>
+                        <li><Link className="dropdown-item" to="#">Blog Left Sidebar</Link></li>
+                        <li><Link className="dropdown-item" to="#">Blog Right Sidebar</Link></li>
+                        <li><Link className="dropdown-item" to="#">Blog Single Page</Link></li>
+                        <li><Link className="dropdown-item" to="#">Single Left Sidebar</Link></li>
+                        <li><Link className="dropdown-item" to="#">Single Right Sidebar</Link></li>
                     </ul>
                 </li>
                 <li className="nav-item megadrop">
-                    <a className="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <Link className="nav-link" to="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Contact
-                    </a>
+                    </Link>
                     <div className="megadrop-down">
                         <div className="container">
                             <div className="dropdown w-100">
@@ -169,7 +168,7 @@ const Navs = ({style}) => {
                                                         </div>
                                                     </div>
                                                     <div className="media-body">
-                                                        <a href="#">
+                                                        <a to="#">
                                                             <h3 className="media-heading">ADDRESS</h3>
                                                         </a>
                                                         <p>Flat: 34/A, Plot: 345, City: Unknown, Country: Unknown</p>
@@ -184,7 +183,7 @@ const Navs = ({style}) => {
                                                         </div>
                                                     </div>
                                                     <div className="media-body">
-                                                        <a href="#">
+                                                        <a to="#">
                                                             <h3 className="media-heading">E-mail</h3>
                                                         </a>
                                                         <p>email@example.com</p>
@@ -199,7 +198,7 @@ const Navs = ({style}) => {
                                                         </div>
                                                     </div>
                                                     <div className="media-body">
-                                                        <a href="#">
+                                                        <a to="#">
                                                             <h3 className="media-heading">Phone</h3>
                                                         </a>
                                                         <p>+880123456789</p>

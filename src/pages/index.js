@@ -1,6 +1,6 @@
 import React from "react"
+import "jquery/dist/jquery.min.js"
 import "bootstrap/dist/css/bootstrap.min.css"
-import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import "../css/animate.css"
 import "../css/lineicon.css"
 import "../scss/style.scss"

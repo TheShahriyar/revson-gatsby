@@ -2,7 +2,6 @@ import React from 'react'
 import SlideImg1 from "../../images/slideshow/slider_4.jpg"
 import SlideImg2 from "../../images/slideshow/slider_5.jpg"
 import SlideImg3 from "../../images/slideshow/slider_2.jpg"
-import {FaAngleRight, FaAngleLeft} from "react-icons/fa"
 
 const BootstrapSlider = () => {
     return (
