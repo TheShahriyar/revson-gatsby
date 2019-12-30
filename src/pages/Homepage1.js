@@ -145,21 +145,19 @@ const Homepage1 = () => {
               <FeatureStyle2
                 title="We are the best company in town"
                 text="Donec sollicitudin molestie malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Donec velit neque"
-              >
-                <i className="icon-paperclip"></i>
-              </FeatureStyle2>
+                icon="icon-paperclip"
+              />
+                
               <FeatureStyle2
                 title="We always give priority to customer"
                 text="Donec sollicitudin molestie malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Donec velit neque"
-              >
-                <i className="icon-paperclip"></i>
-              </FeatureStyle2>
+                icon="icon-paperclip"
+              />
               <FeatureStyle2
                 title="No one can ahead of us"
                 text="Donec sollicitudin molestie malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Donec velit neque"
-              >
-                <i className="icon-paperclip"></i>
-              </FeatureStyle2>
+                icon="icon-paperclip"
+              />
             </div>
             <div className="col-md-5">
               <div className="template-image text-center">
@@ -205,7 +203,7 @@ const Homepage1 = () => {
             <div className="col-md-3 col-sm-6 ">
               <div className="animated-counter text-center white">
                 <div className="animated-number">
-                  <CountUp end={125} />
+                  <CountUp end={125} duration={10} />
                 </div>
                 <h4>Completed Projects</h4>
               </div>
@@ -213,7 +211,7 @@ const Homepage1 = () => {
             <div className="col-md-3 col-sm-6">
               <div className="animated-counter text-center white">
                 <div className="animated-number">
-                  <CountUp end={8285} />
+                  <CountUp end={8285} duration={10} />
                 </div>
                 <h4>Coffee Ordered</h4>
               </div>
@@ -221,7 +219,7 @@ const Homepage1 = () => {
             <div className="col-md-3 col-sm-6">
               <div className="animated-counter text-center white">
                 <div className="animated-number">
-                  <CountUp end={2245} />
+                  <CountUp end={2245} duration={10} />
                 </div>
                 <h4>Problem Solved</h4>
               </div>
@@ -229,7 +227,7 @@ const Homepage1 = () => {
             <div className="col-md-3 col-sm-6">
               <div className="animated-counter text-center white">
                 <div className="animated-number">
-                  <CountUp end={543} />
+                  <CountUp end={543} duration={10} />
                 </div>
                 <h4>Happy Clients</h4>
               </div>

@@ -1,11 +1,11 @@
 import React from 'react'
 
-const FeatureStyle2 = ({title, text, icon}) => {
+const FeatureStyle4 = ({title, text, icon}) => {
     return (
-        <div className="feature-2">
+        <div className="feature-4">
             <div className="media">
                 <div className="media-left">
-                    <div className="feature-icon">
+                    <div className="feature-icon text-center">
                         <i className={icon}></i>
                     </div>
                 </div>
@@ -20,4 +20,4 @@ const FeatureStyle2 = ({title, text, icon}) => {
     )
 }
 
-export default FeatureStyle2
+export default FeatureStyle4
