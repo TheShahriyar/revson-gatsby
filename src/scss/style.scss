@@ -1500,8 +1500,8 @@ ul.filter li button:focus {
     border: 0;
 }
 
-.team .nav>li>a {
-	&:first-child {
+.team .nav-item {
+	a {
 		padding-left: 0;
 	}
 }
