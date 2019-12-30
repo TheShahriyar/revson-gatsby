@@ -7,7 +7,7 @@ const Navs = ({style}) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className={`navbar-nav ${style}`}>
                 <li className="nav-item drop">
-                    <a className="nav-link" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Homepage
                     </a>
                     <ul className="drop-down" aria-labelledby="navbarDropdown">
@@ -21,53 +21,53 @@ const Navs = ({style}) => {
                     </ul>
                 </li>
                 <li className="nav-item drop">
-                    <a className="nav-link" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Features
                     </a>
                     <ul className="drop-down">
                         <li>
-                            <a to="#">Header<FaAngleRight/></a>
+                            <a href="#">Header<FaAngleRight/></a>
                             <ul className="drop-down level3">
-                                <li><Link to="header-1.html">Header 1</Link></li>
-                                <li><Link to="header-2.html">Header 2</Link></li>
-                                <li><Link to="header-3.html">Header 3</Link></li>
-                                <li><Link to="header-4.html">Header 4</Link></li>
-                                <li><Link to="header-5.html">Header 5</Link></li>
-                                <li><Link to="header-6.html">Header 6</Link></li>
-                                <li><Link to="header-7.html">Header 7</Link></li>
-                                <li><Link to="header-8.html">Header 8</Link></li>
+                                <li><Link to="header1">Header 1</Link></li>
+                                <li><Link to="header2">Header 2</Link></li>
+                                <li><Link to="header3">Header 3</Link></li>
+                                <li><Link to="header4">Header 4</Link></li>
+                                <li><Link to="header5">Header 5</Link></li>
+                                <li><Link to="header6">Header 6</Link></li>
+                                <li><Link to="header7">Header 7</Link></li>
+                                <li><Link to="header8">Header 8</Link></li>
                             </ul>
                         </li>
-                        <li><a to="index.html">Slideshow<FaAngleRight/></a>
+                        <li><a href="#">Slideshow<FaAngleRight/></a>
                             <ul className="drop-down level3">
-                                <li><Link to="slider-bootstrap.html">Bootstrap Slider</Link></li>
-                                <li><Link to="banner-1.html">Banner 1</Link></li>
-                                <li><Link to="banner-2.html">Banner 2</Link></li>
-                                <li><Link to="banner-3.html">Banner 3</Link></li>
-                                <li><Link to="banner-video-bg.html">Banner Video BG</Link></li>
+                                <li><Link to="sliderbootstrap">Bootstrap Slider</Link></li>
+                                <li><Link to="banner1">Banner 1</Link></li>
+                                <li><Link to="banner2">Banner 2</Link></li>
+                                <li><Link to="banner3">Banner 3</Link></li>
+                                <li><Link to="bannervideobg">Banner Video BG</Link></li>
                             </ul>
                         </li>
-                        <li><a to="index.html">Footer<FaAngleRight/></a>
+                        <li><a href="#">Footer<FaAngleRight/></a>
                             <ul className="drop-down level3">
-                                <li><Link to="footer-1.html">Footer 1</Link></li>
-                                <li><Link to="footer-2.html">Footer 2</Link></li>
-                                <li><Link to="footer-3.html">Footer 3</Link></li>
+                                <li><Link to="footer1">Footer 1</Link></li>
+                                <li><Link to="footer2">Footer 2</Link></li>
+                                <li><Link to="footer3">Footer 3</Link></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
                 <li className="nav-item drop">
-                    <Link className="nav-link" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Pages
-                    </Link>
+                    </a>
                     <ul className="drop-down" aria-labelledby="navbarDropdown">
-                        <li><Link to="#">About Us 1</Link></li>
-                        <li><Link to="#">About Us 2</Link></li>
-                        <li><Link to="#">Service Page 1</Link></li>
-                        <li><Link to="#">Service Page 2</Link></li>
-                        <li><Link to="#">Team Member</Link></li>
-                        <li><Link to="#">Contact Page</Link></li>
-                        <li><Link to="#">F.A.Q</Link></li>
+                        <li><Link to="aboutUs1">About Us 1</Link></li>
+                        <li><Link to="aboutUs2">About Us 2</Link></li>
+                        <li><Link to="servicePage1">Service Page 1</Link></li>
+                        <li><Link to="servicePage1">Service Page 2</Link></li>
+                        <li><Link to="teamMember">Team Member</Link></li>
+                        <li><Link to="contact">Contact Page</Link></li>
+                        <li><Link to="faq">F.A.Q</Link></li>
                     </ul>
                 </li>
                 <li className="nav-item drop">
@@ -75,56 +75,56 @@ const Navs = ({style}) => {
                         Portfolio
                     </Link>
                     <ul className="drop-down" aria-labelledby="navbarDropdown">
-                        <li><Link to="#">Portfolio 2 Col St 1</Link></li>
-                        <li><Link to="#">Portfolio 2 Col St 2</Link></li>
-                        <li><Link to="#">Portfolio 3 Col St 1</Link></li>
-                        <li><Link to="#">Portfolio 3 Col St 2</Link></li>
-                        <li><Link to="#">Portfolio 4 Col St 1</Link></li>
-                        <li><Link to="#">Portfolio 4 Col St 2</Link></li>
+                        <li><Link to="portfolio">Portfolio 2 Col St 1</Link></li>
+                        <li><Link to="portfolio">Portfolio 2 Col St 2</Link></li>
+                        <li><Link to="portfolio">Portfolio 3 Col St 1</Link></li>
+                        <li><Link to="portfolio">Portfolio 3 Col St 2</Link></li>
+                        <li><Link to="portfolio">Portfolio 4 Col St 1</Link></li>
+                        <li><Link to="portfolio">Portfolio 4 Col St 2</Link></li>
                     </ul>
                 </li>
                 <li className="nav-item megadrop">
-                    <Link className="nav-link" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Elements
-                    </Link>
+                    </a>
                     <div className="megadrop-down">
                         <div className="container">
                             <div className="dropdown w-100">
                                 <div className="row">
                                     <div className="col-md-3 col-sm-6">
                                         <ul>
-                                            <li><Link to="alert.html">Alert</Link></li>
-                                            <li><Link to="accordion.html">Accordion</Link></li>
-                                            <li><Link to="animated-counter.html">Animated Counter</Link></li>
-                                            <li><Link to="blockquote.html">Block Quote</Link></li>
-                                            <li><Link to="blog-content.html">Blog Content</Link></li>
+                                            <li><Link to="alert">Alert</Link></li>
+                                            <li><Link to="accordion">Accordion</Link></li>
+                                            <li><Link to="animated-counter">Animated Counter</Link></li>
+                                            <li><Link to="blockquote">Block Quote</Link></li>
+                                            <li><Link to="blog-content">Blog Content</Link></li>
                                         </ul>
                                     </div>
                                     <div className="col-md-3 col-sm-6">
                                         <ul>
-                                            <li><Link to="bootstrap-grid.html">Bootstrap Grid</Link></li>
-                                            <li><Link to="slider-bootstrap.html">Carousel</Link></li>
-                                            <li><Link to="call-to-action.html">Call to Action</Link></li>
-                                            <li><Link to="client.html">Clients</Link></li>
-                                            <li><Link to="divider.html">Divider</Link></li>
+                                            <li><Link to="bootstrap-grid">Bootstrap Grid</Link></li>
+                                            <li><Link to="slider-bootstrap">Carousel</Link></li>
+                                            <li><Link to="call-to-action">Call to Action</Link></li>
+                                            <li><Link to="client">Clients</Link></li>
+                                            <li><Link to="divider">Divider</Link></li>
                                         </ul>
                                     </div>
                                     <div className="col-md-3 col-sm-6">
                                         <ul>
-                                            <li><Link to="dropcap.html">Dropcap</Link></li>
-                                            <li><Link to="error-page.html">Error</Link></li>
-                                            <li><Link to="faq.html">F.A.Q</Link></li>
-                                            <li><Link to="feature-page.html">Feature Box</Link></li>
-                                            <li><Link to="img-content.html">Image Content</Link></li>
+                                            <li><Link to="dropcap">Dropcap</Link></li>
+                                            <li><Link to="error-page">Error</Link></li>
+                                            <li><Link to="faq">F.A.Q</Link></li>
+                                            <li><Link to="feature-page">Feature Box</Link></li>
+                                            <li><Link to="img-content">Image Content</Link></li>
                                         </ul>
                                     </div>
                                     <div className="col-md-3 col-sm-6">
                                         <ul className="last-child">
-                                            <li><Link to="piechart.html">Pie Chart</Link></li>
-                                            <li><Link to="pricing-table.html">Pricing Table</Link></li>
-                                            <li><Link to="team.html">Team</Link></li>
-                                            <li><Link to="testimonial.html">Testimonial</Link></li>
-                                            <li><Link to="typography.html">Typography</Link></li>
+                                            <li><Link to="piechart">Pie Chart</Link></li>
+                                            <li><Link to="pricing-table">Pricing Table</Link></li>
+                                            <li><Link to="team">Team</Link></li>
+                                            <li><Link to="testimonial">Testimonial</Link></li>
+                                            <li><Link to="typography">Typography</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -137,12 +137,12 @@ const Navs = ({style}) => {
                         Blog
                     </Link>
                     <ul className="drop-down" aria-labelledby="navbarDropdown">
-                        <li><Link className="dropdown-item" to="#">Blog Full Width</Link></li>
-                        <li><Link className="dropdown-item" to="#">Blog Left Sidebar</Link></li>
-                        <li><Link className="dropdown-item" to="#">Blog Right Sidebar</Link></li>
-                        <li><Link className="dropdown-item" to="#">Blog Single Page</Link></li>
-                        <li><Link className="dropdown-item" to="#">Single Left Sidebar</Link></li>
-                        <li><Link className="dropdown-item" to="#">Single Right Sidebar</Link></li>
+                        <li><Link className="dropdown-item" to="blog">Blog Full Width</Link></li>
+                        <li><Link className="dropdown-item" to="blog">Blog Left Sidebar</Link></li>
+                        <li><Link className="dropdown-item" to="blog">Blog Right Sidebar</Link></li>
+                        <li><Link className="dropdown-item" to="blog">Blog Single Page</Link></li>
+                        <li><Link className="dropdown-item" to="blog">Single Left Sidebar</Link></li>
+                        <li><Link className="dropdown-item" to="blog">Single Right Sidebar</Link></li>
                     </ul>
                 </li>
                 <li className="nav-item megadrop">

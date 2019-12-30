@@ -3,7 +3,7 @@ import TopHeader from './TopHeader'
 import Logo from "../../images/logo/logo.png"
 import NavbarStyle2 from '../Navbar/NavbarStyle2'
 
-const HeaderStyle2 = () => {
+const HeaderStyle2 = ({style}) => {
     return (
         <>
         <TopHeader/>
@@ -50,7 +50,7 @@ const HeaderStyle2 = () => {
             </div>
         </section>
 
-        <NavbarStyle2/>
+        <NavbarStyle2 style={style} />
         </>
     )
 }

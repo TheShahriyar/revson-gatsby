@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 import Navs from './Navs'
 
 export default class NavbarStyle2 extends Component {
@@ -29,9 +28,10 @@ export default class NavbarStyle2 extends Component {
     // }
 
     render() {
+        const {style} = this.props;
         return (
             <header className={`${this.state.scrolled ? "navbar-fixed-top" : ""}`}>
-                <nav className="navbar navbar-expand-lg bottom-nav boxed-width dark-color">
+                <nav className={`navbar navbar-expand-lg bottom-nav boxed-width ${style}`}>
                     <div className="container">
             
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

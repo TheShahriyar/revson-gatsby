@@ -19,13 +19,13 @@ const list = [
 
 const Element = ({ imgSource, title, tag }) => (
     <div className="col-md-4 col-sm-6 html">
-        <div class="portfolio-post mb30">
+        <div className="portfolio-post mb30">
             <img src={imgSource} alt="theshahriyar"/>
-            <div class="hover-box">
-                <div class="inner-hover">
+            <div className="hover-box">
+                <div className="inner-hover">
                     <h4>{title}</h4>
                     <p>{tag}</p>
-                    <a href="#"><i class="icon-attachment"></i></a>
+                    <a href="#"><i className="icon-attachment"></i></a>
                 </div>                      
             </div>
         </div>
