@@ -10,7 +10,7 @@ import Bg1 from "../images/bg/bg1.jpg"
 import BG6 from "../images/bg/bg6.jpg"
 import Img1 from "../images/others/img-1.jpg"
 
-import FeaturesStyle3 from '../components/Features/FeaturesStyle3'
+import FeaturesStyle5 from '../components/Features/FeaturesStyle5'
 import SectionTitle from '../components/SectionTitle/SectionTitle'
 import ProgressBar from '../components/ProgressBar'
 import FeatureStyle2 from '../components/Features/FeatureStyle2'
@@ -39,13 +39,13 @@ const Homepage2 = () => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-4" style={{paddingLeft: "0", paddingRight: "0"}}>
-                            <FeaturesStyle3 title="Our Mission" icon="icon-layers" bgImg={FeatureImg1} text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit." />
+                            <FeaturesStyle5 title="Our Mission" icon="icon-layers" bgImg={FeatureImg1} text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit." />
                         </div>
                         <div className="col-md-4" style={{paddingLeft: "0", paddingRight: "0"}}>
-                            <FeaturesStyle3 title="Our Vision" icon="icon-lightbulb" bgImg={FeatureImg2} text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit." />
+                            <FeaturesStyle5 title="Our Vision" icon="icon-lightbulb" bgImg={FeatureImg2} text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit." />
                         </div>
                         <div className="col-md-4" style={{paddingLeft: "0", paddingRight: "0"}}>
-                            <FeaturesStyle3 title="Our Success" icon="icon-trophy" bgImg={FeatureImg3} text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit." />
+                            <FeaturesStyle5 title="Our Success" icon="icon-trophy" bgImg={FeatureImg3} text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit." />
                         </div>
                     </div>
                 </div>

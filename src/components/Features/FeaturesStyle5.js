@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FeaturesStyle3 = ({title, text, icon, bgImg}) => {
+const FeaturesStyle5 = ({title, text, icon, bgImg}) => {
     return (
         <div className="feature-5">
             <i className={`${icon}`}></i>
@@ -11,4 +11,4 @@ const FeaturesStyle3 = ({title, text, icon, bgImg}) => {
     )
 }
 
-export default FeaturesStyle3
+export default FeaturesStyle5

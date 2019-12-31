@@ -1,8 +1,8 @@
 import React from 'react'
 
-const FeatureStyle2 = ({title, text, icon}) => {
+const FeatureStyle2 = ({title, text, icon, style}) => {
     return (
-        <div className="feature-2">
+        <div className={`feature-2 ${style}`}>
             <div className="media">
                 <div className="media-left">
                     <div className="feature-icon">
