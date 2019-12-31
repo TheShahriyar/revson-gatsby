@@ -170,7 +170,7 @@ const Homepage1 = () => {
       {/* End Why Choose Us Section Section*/}
 
       {/* Start Call to Action Section*/}
-      <CallToAction2></CallToAction2>
+      <CallToAction2 bgColor="#222" paddingClass="pad80"></CallToAction2>
       {/* End Call to Action Section*/}
 
       {/* Start Portfolio Section*/}

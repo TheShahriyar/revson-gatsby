@@ -293,7 +293,7 @@ const Homepage2 = () => {
             {/* End Portfolio Section*/}
 
             {/* Start Call to Action Section*/}
-                <CallToAction2/>
+                <CallToAction2 bgColor="#222" paddingClass="pad80"/>
             {/* End Call to Action Section*/}
 
             {/* Start Pricing Table Section*/}

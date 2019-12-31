@@ -1,8 +1,8 @@
 import React from 'react'
 
-const CallToAction2 = () => {
+const CallToAction2 = ({bgColor, btnSTyle, paddingClass}) => {
     return (
-        <section className="pad80 call-to-action-2" style={{backgroundColor: "#222"}}>
+        <section className={`${paddingClass} call-to-action-2`} style={{backgroundColor: `${bgColor}`}}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-8">
@@ -12,7 +12,7 @@ const CallToAction2 = () => {
                     </div>
                     <div className="col-md-4">
                         <a href="#" className="btn btn-primary white mr-2">Get a Quote</a>
-                        <a href="#" className="btn btn-primary">Contact Us</a>
+                        <a href="#" className={`btn btn-primary ${btnSTyle}`}>Contact Us</a>
                     </div>
                 </div>
             </div>
