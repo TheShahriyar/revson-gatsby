@@ -6,12 +6,22 @@ import FeatureImg3 from "../images/others/img-9.jpg"
 import Bg10 from "../images/bg/bg10.jpg"
 import img2 from "../images/others/img-2.jpg"
 import HumanImg from "../images/others/img-026.png"
+import TeamImage2 from "../images/team/team2.jpg"
+import TeamImage3 from "../images/team/team3.jpg"
+import TeamImage5 from "../images/team/team5.jpg"
+import Blog1 from "../images/others/img-4.jpg"
+import Blog2 from "../images/others/img-8.jpg"
+import Blog3 from "../images/others/img-9.jpg"
 
 import HeaderStyle1 from '../components/Header/HeaderStyle1'
 import Banner from '../components/Slideshow/Banner'
 import FeaturesStyle5 from '../components/Features/FeaturesStyle5'
 import FeatureStyle2 from '../components/Features/FeatureStyle2'
 import CallToAction2 from '../components/CallToAction/CallToAction2'
+import SectionTitle from '../components/SectionTitle/SectionTitle'
+import TeamStyle3 from '../components/Team/TeamStyle3'
+import PricingTable from '../components/PricingTable'
+import FooterStyle1 from '../components/Footer/FooterStyle1'
 
 const Homepage7 = () => {
     return (
@@ -130,7 +140,145 @@ const Homepage7 = () => {
             </section>
             {/* End Text Section */}
 
-            <CallToAction2/>
+            {/* Start Call to Action Section*/}
+            <CallToAction2 bgColor="#222" paddingClass="pad80"></CallToAction2>
+            {/* End Call to Action Section*/}
+            
+            {/* Start Team Member Section */}
+            <section className="pad80">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <SectionTitle title="Team Member"/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-4 col-sm-4">
+                            <TeamStyle3
+                                memberImg={TeamImage2}
+                                title="John Doe"
+                                designation="CEO"
+                                fbLink="#"
+                                twitterLink="#"
+                                linkedInLink="#"
+                            />
+                        </div>
+                        <div className="col-md-4 col-sm-4">
+                            <TeamStyle3
+                                memberImg={TeamImage3}
+                                title="John Doe"
+                                designation="CEO"
+                                fbLink="#"
+                                twitterLink="#"
+                                linkedInLink="#"
+                            />
+                        </div>
+                        <div className="col-md-4 col-sm-4">
+                            <TeamStyle3
+                                memberImg={TeamImage5}
+                                title="John Doe"
+                                designation="CEO"
+                                fbLink="#"
+                                twitterLink="#"
+                                linkedInLink="#"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* End Team Member Section */}
+
+            {/* Start Latest News Section*/}
+            <section
+                className="pad-t80 pad-b50"
+                style={{ backgroundColor: "#f9f9f9" }}
+            >
+                <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+                    <SectionTitle title="Latest News" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-4">
+                    <div className="latest-news">
+                        <div className="latest-news-img">
+                        <img src={Blog1} alt="blog-post" />
+                        <div>
+                            <span>Aug</span>
+                            <span>06</span>
+                        </div>
+                        </div>
+                        <h4>
+                        <a href="#">
+                            Lorem Ipsum is dummy text of type setting industry.
+                        </a>
+                        </h4>
+                        <p>
+                        Vivamus magna justo, lacinia eget consectetur convallis at
+                        tellus. Lorem ipsum dolor sit consectetur adipiscing elit
+                        </p>
+                    </div>
+                    </div>
+                    <div className="col-md-4">
+                    <div className="latest-news">
+                        <div className="latest-news-img">
+                        <img src={Blog2} alt="blog-post" />
+                        <div>
+                            <span>Aug</span>
+                            <span>07</span>
+                        </div>
+                        </div>
+                        <h4>
+                        <a href="#">
+                            Lorem Ipsum is dummy text of type setting industry.
+                        </a>
+                        </h4>
+                        <p>
+                        Vivamus magna justo, lacinia eget consectetur convallis at
+                        tellus. Lorem ipsum dolor sit consectetur adipiscing elit
+                        </p>
+                    </div>
+                    </div>
+                    <div className="col-md-4">
+                    <div className="latest-news">
+                        <div className="latest-news-img">
+                        <img src={Blog3} alt="blog-post" />
+                        <div>
+                            <span>Aug</span>
+                            <span>08</span>
+                        </div>
+                        </div>
+                        <h4>
+                        <a href="#">
+                            Lorem Ipsum is dummy text of type setting industry.
+                        </a>
+                        </h4>
+                        <p>
+                        Vivamus magna justo, lacinia eget consectetur convallis at
+                        tellus. Lorem ipsum dolor sit consectetur adipiscing elit
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            {/* End Latest News Section*/}
+
+            {/* Start Pricing Table Section*/}
+            <section className="pad-t80 pad-b50">
+                <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+                    <SectionTitle title="Pricing Chart" />
+                    </div>
+                </div>
+                <PricingTable />
+                </div>
+            </section>
+            {/* End Pricing Table Section*/}
+
+            <FooterStyle1/>
         </>
     )
 }
