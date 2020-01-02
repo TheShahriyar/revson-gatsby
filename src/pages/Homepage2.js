@@ -28,7 +28,7 @@ const Homepage2 = () => {
     return (
         <>
             <HeaderStyle2 style="dark-color" />
-            <Banner style="text-center" bgImage={BannerImg}>
+            <Banner style="text-center" bgImg={BannerImg}>
                 <h1>Welcome to <span>Revson</span></h1>
                 <p>Vivamus suscipit tortor eget felis porttitor volutpat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.<br/> Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
                 <a href="#" className="btn btn-primary">Discover More</a>

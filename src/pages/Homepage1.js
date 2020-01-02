@@ -91,35 +91,31 @@ const Homepage1 = () => {
                 <div className="row">
                   <div className="col-md-6">
                     <FeatureStyle2
+                      icon="icon-puzzle"
                       title="DESIGNED TO BE AMAZING"
                       text="Nulla facilisi curabitur iaculisacc aug, ex ea commodo consequat nec finibus mauris pretium eu."
-                    >
-                      <i className="icon-puzzle"></i>
-                    </FeatureStyle2>
+                    />
                   </div>
                   <div className="col-md-6">
                     <FeatureStyle2
+                      icon="icon-mobile"
                       title="Industrial Services"
                       text="Nulla facilisi curabitur iaculisacc aug, ex ea commodo consequat nec finibus mauris pretium eu."
-                    >
-                      <i className="icon-mobile"></i>
-                    </FeatureStyle2>
+                    />
                   </div>
                   <div className="col-md-6">
                     <FeatureStyle2
+                      icon="icon-layers"
                       title="Startup Business Planning"
                       text="Nulla facilisi curabitur iaculisacc aug, ex ea commodo consequat nec finibus mauris pretium eu."
-                    >
-                      <i className="icon-layers"></i>
-                    </FeatureStyle2>
+                    />
                   </div>
                   <div className="col-md-6">
                     <FeatureStyle2
+                      icon="icon-trophy"
                       title="Make company top"
                       text="Nulla facilisi curabitur iaculisacc aug, ex ea commodo consequat nec finibus mauris pretium eu."
-                    >
-                      <i className="icon-trophy"></i>
-                    </FeatureStyle2>
+                    />
                   </div>
                 </div>
               </div>
