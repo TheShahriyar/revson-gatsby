@@ -44,7 +44,7 @@ const Homepage6 = () => {
           <div className="row">
             <div className="col-md-3">
               <FeatureStyle8
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-presentation"
                 title="HTML Template"
                 text="Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.."
@@ -52,7 +52,7 @@ const Homepage6 = () => {
             </div>
             <div className="col-md-3">
               <FeatureStyle8
-                style="text-center active"
+                featureStyle="text-center active"
                 icon="icon-camera"
                 title="Joomla Template"
                 text="Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.."
@@ -60,7 +60,7 @@ const Homepage6 = () => {
             </div>
             <div className="col-md-3">
               <FeatureStyle8
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-target"
                 title="WordPress Theme"
                 text="Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.."
@@ -68,7 +68,7 @@ const Homepage6 = () => {
             </div>
             <div className="col-md-3">
               <FeatureStyle8
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-trophy"
                 title="WP Plugin"
                 text="Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.."
@@ -76,7 +76,7 @@ const Homepage6 = () => {
             </div>
             <div className="col-md-3">
               <FeatureStyle8
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-basket"
                 title="cum soluta nobis"
                 text="Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.."
@@ -84,7 +84,7 @@ const Homepage6 = () => {
             </div>
             <div className="col-md-3">
               <FeatureStyle8
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-layers"
                 title="cum soluta nobis"
                 text="Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.."
@@ -92,7 +92,7 @@ const Homepage6 = () => {
             </div>
             <div className="col-md-3">
               <FeatureStyle8
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-linegraph"
                 title="cum soluta nobis"
                 text="Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.."
@@ -100,7 +100,7 @@ const Homepage6 = () => {
             </div>
             <div className="col-md-3">
               <FeatureStyle8
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-genius"
                 title="minus id"
                 text="Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.."
@@ -348,7 +348,7 @@ const Homepage6 = () => {
             <div class="col-md-6">
               <FeatureStyle3
                 bgColor="#f2f2f2"
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-layers"
                 title="labore et dolore"
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris consectetur adipisicing elit, nisi ut aliquip."
@@ -357,7 +357,7 @@ const Homepage6 = () => {
             <div class="col-md-6">
               <FeatureStyle3
                 bgColor="#f2f2f2"
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-trophy"
                 title="ipsum dolor sit"
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris consectetur adipisicing elit, nisi ut aliquip."
@@ -366,7 +366,7 @@ const Homepage6 = () => {
             <div class="col-md-6">
               <FeatureStyle3
                 bgColor="#f2f2f2"
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-genius"
                 title="amet quam vehicula"
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris consectetur adipisicing elit, nisi ut aliquip."
@@ -375,7 +375,7 @@ const Homepage6 = () => {
             <div class="col-md-6">
               <FeatureStyle3
                 bgColor="#f2f2f2"
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-puzzle"
                 title="ligula sed magna"
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris consectetur adipisicing elit, nisi ut aliquip."

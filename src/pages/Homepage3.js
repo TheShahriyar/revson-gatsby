@@ -25,7 +25,7 @@ import FooterStyle1 from "../components/Footer/FooterStyle1"
 const Homepage3 = () => {
   return (
     <>
-      <HeaderStyle2 style="primary-color" />
+      <HeaderStyle2 headerStyle="primary-color" />
       <Banner bannerstyle="text-center" bgImg={BannerImg}>
         <h1>
           Welcome to <span>Revson</span>
@@ -85,7 +85,7 @@ const Homepage3 = () => {
           <div className="row">
             <div className="col-md-4">
               <FeatureStyle9
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-layers"
                 title="labore et dolore"
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
@@ -93,7 +93,7 @@ const Homepage3 = () => {
             </div>
             <div className="col-md-4">
               <FeatureStyle9
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-aperture"
                 title="labore et dolore"
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
@@ -101,7 +101,7 @@ const Homepage3 = () => {
             </div>
             <div className="col-md-4">
               <FeatureStyle9
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-genius"
                 title="labore et dolore"
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
@@ -109,7 +109,7 @@ const Homepage3 = () => {
             </div>
             <div className="col-md-4">
               <FeatureStyle9
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-beaker"
                 title="labore et dolore"
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
@@ -117,7 +117,7 @@ const Homepage3 = () => {
             </div>
             <div className="col-md-4">
               <FeatureStyle9
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-bargraph"
                 title="labore et dolore"
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
@@ -125,7 +125,7 @@ const Homepage3 = () => {
             </div>
             <div className="col-md-4">
               <FeatureStyle9
-                style="text-center"
+                featureStyle="text-center"
                 icon="icon-puzzle"
                 title="labore et dolore"
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."

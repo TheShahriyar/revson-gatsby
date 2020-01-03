@@ -137,7 +137,7 @@ const Homepage1 = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-7">
-              <SectionTitle style="left" title="Why Choose Us" />
+              <SectionTitle titleStyle="left" title="Why Choose Us" />
               <FeatureStyle2
                 title="We are the best company in town"
                 text="Donec sollicitudin molestie malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Donec velit neque"

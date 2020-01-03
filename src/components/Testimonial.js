@@ -25,7 +25,7 @@ const Testimonial = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <SectionTitle title="What people say" style="white" />
+            <SectionTitle titleStyle="What people say" style="white" />
           </div>
         </div>
         <div className="row">
