@@ -23,7 +23,7 @@ const Homepage1 = () => {
   return (
     <>
       <HeaderStyle1 />
-      <BootstrapSlider/>
+      <BootstrapSlider />
 
       {/* Start Welcome Section */}
       <section className="pad-t80 pad-b50">
@@ -143,7 +143,7 @@ const Homepage1 = () => {
                 text="Donec sollicitudin molestie malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Donec velit neque"
                 icon="icon-paperclip"
               />
-                
+
               <FeatureStyle2
                 title="We always give priority to customer"
                 text="Donec sollicitudin molestie malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Donec velit neque"
@@ -173,9 +173,9 @@ const Homepage1 = () => {
       <section className="pad-t80 pad-b50">
         <div className="container">
           <div className="row">
-              <div className="col-md-12">
-                  <SectionTitle title="Revson's Portfolio" />
-              </div>
+            <div className="col-md-12">
+              <SectionTitle title="Revson's Portfolio" />
+            </div>
           </div>
           <div className="row">
             <div className="col-md-12">
