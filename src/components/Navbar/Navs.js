@@ -12,12 +12,12 @@ const Navs = ({style}) => {
                     </a>
                     <ul className="drop-down" aria-labelledby="navbarDropdown">
                         <li><Link to="/">Homepage 1</Link></li>
-                        <li><Link to="homepage2">Homepage 2</Link></li>
-                        <li><Link to="homepage3">Homepage 3</Link></li>
-                        <li><Link to="homepage4">Homepage 4</Link></li>
-                        <li><Link to="homepage5">Homepage 5</Link></li>
-                        <li><Link to="homepage6">Homepage 6</Link></li>
-                        <li><Link to="homepage7">Homepage 7</Link></li>
+                        <li><Link to="/homepage2">Homepage 2</Link></li>
+                        <li><Link to="/homepage3">Homepage 3</Link></li>
+                        <li><Link to="/homepage4">Homepage 4</Link></li>
+                        <li><Link to="/homepage5">Homepage 5</Link></li>
+                        <li><Link to="/homepage6">Homepage 6</Link></li>
+                        <li><Link to="/homepage7">Homepage 7</Link></li>
                     </ul>
                 </li>
                 <li className="nav-item drop">
