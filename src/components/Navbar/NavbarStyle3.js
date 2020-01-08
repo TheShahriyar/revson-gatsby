@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import Logo from "../../images/logo/logo.png"
+import Logo from "../../images/logo/logo-white.png"
 import {Link} from "gatsby"
 import Navs from './Navs'
 
-export default class Navbar extends Component {
+export default class NavbarStyle3 extends Component {
 
     state = {
         scrolled: false

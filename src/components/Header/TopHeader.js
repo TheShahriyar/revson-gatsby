@@ -1,9 +1,9 @@
 import React from 'react'
 import {FaFacebookF,FaLinkedinIn,FaPinterest,FaDribbble,FaTwitter,FaRss,FaPhoneVolume,FaMapMarkerAlt} from "react-icons/fa"
 
-const TopHeader = ({style}) => {
+const TopHeader = ({topHeaderStyle}) => {
     return (
-        <section className={`top-header ${style ? style : ""}`}>
+        <section className={`top-header ${topHeaderStyle ? topHeaderStyle : ""}`}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 col-sm-6">
