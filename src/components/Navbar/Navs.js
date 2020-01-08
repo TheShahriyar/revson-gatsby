@@ -28,30 +28,29 @@ const Navs = ({style}) => {
                         <li>
                             <a href="#">Header<FaAngleRight/></a>
                             <ul className="drop-down level3">
-                                <li><Link to="header1">Header 1</Link></li>
-                                <li><Link to="header2">Header 2</Link></li>
-                                <li><Link to="header3">Header 3</Link></li>
-                                <li><Link to="header4">Header 4</Link></li>
-                                <li><Link to="header5">Header 5</Link></li>
-                                <li><Link to="header6">Header 6</Link></li>
-                                <li><Link to="header7">Header 7</Link></li>
-                                <li><Link to="header8">Header 8</Link></li>
+                                <li><Link to="/header1">Header 1</Link></li>
+                                <li><Link to="/header2">Header 2</Link></li>
+                                <li><Link to="/header3">Header 3</Link></li>
+                                <li><Link to="/header4">Header 4</Link></li>
+                                <li><Link to="/header5">Header 5</Link></li>
+                                <li><Link to="/header6">Header 6</Link></li>
+                                <li><Link to="/header7">Header 7</Link></li>
+                                <li><Link to="/header8">Header 8</Link></li>
                             </ul>
                         </li>
                         <li><a href="#">Slideshow<FaAngleRight/></a>
                             <ul className="drop-down level3">
-                                <li><Link to="sliderbootstrap">Bootstrap Slider</Link></li>
-                                <li><Link to="banner1">Banner 1</Link></li>
-                                <li><Link to="banner2">Banner 2</Link></li>
-                                <li><Link to="banner3">Banner 3</Link></li>
-                                <li><Link to="bannervideobg">Banner Video BG</Link></li>
+                                <li><Link to="/sliderbootstrap">Bootstrap Slider</Link></li>
+                                <li><Link to="/banner1">Banner 1</Link></li>
+                                <li><Link to="/banner2">Banner 2</Link></li>
+                                <li><Link to="/banner3">Banner 3</Link></li>
                             </ul>
                         </li>
                         <li><a href="#">Footer<FaAngleRight/></a>
                             <ul className="drop-down level3">
-                                <li><Link to="footer1">Footer 1</Link></li>
-                                <li><Link to="footer2">Footer 2</Link></li>
-                                <li><Link to="footer3">Footer 3</Link></li>
+                                <li><Link to="/footer1">Footer 1</Link></li>
+                                <li><Link to="/footer2">Footer 2</Link></li>
+                                <li><Link to="/footer3">Footer 3</Link></li>
                             </ul>
                         </li>
                     </ul>
@@ -61,13 +60,13 @@ const Navs = ({style}) => {
                         Pages
                     </a>
                     <ul className="drop-down" aria-labelledby="navbarDropdown">
-                        <li><Link to="aboutUs1">About Us 1</Link></li>
-                        <li><Link to="aboutUs2">About Us 2</Link></li>
-                        <li><Link to="servicePage1">Service Page 1</Link></li>
-                        <li><Link to="servicePage1">Service Page 2</Link></li>
-                        <li><Link to="teamMember">Team Member</Link></li>
-                        <li><Link to="contact">Contact Page</Link></li>
-                        <li><Link to="faq">F.A.Q</Link></li>
+                        <li><Link to="/aboutUs1">About Us 1</Link></li>
+                        <li><Link to="/aboutUs2">About Us 2</Link></li>
+                        <li><Link to="/servicePage1">Service Page 1</Link></li>
+                        <li><Link to="/servicePage1">Service Page 2</Link></li>
+                        <li><Link to="/teamMember">Team Member</Link></li>
+                        <li><Link to="/contact">Contact Page</Link></li>
+                        <li><Link to="/faq">F.A.Q</Link></li>
                     </ul>
                 </li>
                 <li className="nav-item drop">
@@ -75,12 +74,12 @@ const Navs = ({style}) => {
                         Portfolio
                     </Link>
                     <ul className="drop-down" aria-labelledby="navbarDropdown">
-                        <li><Link to="portfolio">Portfolio 2 Col St 1</Link></li>
-                        <li><Link to="portfolio">Portfolio 2 Col St 2</Link></li>
-                        <li><Link to="portfolio">Portfolio 3 Col St 1</Link></li>
-                        <li><Link to="portfolio">Portfolio 3 Col St 2</Link></li>
-                        <li><Link to="portfolio">Portfolio 4 Col St 1</Link></li>
-                        <li><Link to="portfolio">Portfolio 4 Col St 2</Link></li>
+                        <li><Link to="/portfolio2ColSt1">Portfolio 2 Col St 1</Link></li>
+                        <li><Link to="/portfolio2ColSt2">Portfolio 2 Col St 2</Link></li>
+                        <li><Link to="/portfolio3ColSt1">Portfolio 3 Col St 1</Link></li>
+                        <li><Link to="/portfolio3ColSt2">Portfolio 3 Col St 2</Link></li>
+                        <li><Link to="/portfolio4ColSt1">Portfolio 4 Col St 1</Link></li>
+                        <li><Link to="/portfolio4ColSt2">Portfolio 4 Col St 2</Link></li>
                     </ul>
                 </li>
                 <li className="nav-item megadrop">
@@ -93,38 +92,38 @@ const Navs = ({style}) => {
                                 <div className="row">
                                     <div className="col-md-3 col-sm-6">
                                         <ul>
-                                            <li><Link to="alert">Alert</Link></li>
-                                            <li><Link to="accordion">Accordion</Link></li>
-                                            <li><Link to="animated-counter">Animated Counter</Link></li>
-                                            <li><Link to="blockquote">Block Quote</Link></li>
-                                            <li><Link to="blog-content">Blog Content</Link></li>
+                                            <li><Link to="/alert">Alert</Link></li>
+                                            <li><Link to="/accordion">Accordion</Link></li>
+                                            <li><Link to="/animatedCounter">Animated Counter</Link></li>
+                                            <li><Link to="/blockquote">Block Quote</Link></li>
+                                            <li><Link to="/blogContent">Blog Content</Link></li>
                                         </ul>
                                     </div>
                                     <div className="col-md-3 col-sm-6">
                                         <ul>
-                                            <li><Link to="bootstrap-grid">Bootstrap Grid</Link></li>
-                                            <li><Link to="slider-bootstrap">Carousel</Link></li>
-                                            <li><Link to="call-to-action">Call to Action</Link></li>
-                                            <li><Link to="client">Clients</Link></li>
-                                            <li><Link to="divider">Divider</Link></li>
+                                            <li><Link to="/bootstrapGrid">Bootstrap Grid</Link></li>
+                                            <li><Link to="/sliderBootstrap">Carousel</Link></li>
+                                            <li><Link to="/callToAction">Call to Action</Link></li>
+                                            <li><Link to="/client">Clients</Link></li>
+                                            <li><Link to="/divider">Divider</Link></li>
                                         </ul>
                                     </div>
                                     <div className="col-md-3 col-sm-6">
                                         <ul>
-                                            <li><Link to="dropcap">Dropcap</Link></li>
-                                            <li><Link to="error-page">Error</Link></li>
-                                            <li><Link to="faq">F.A.Q</Link></li>
-                                            <li><Link to="feature-page">Feature Box</Link></li>
-                                            <li><Link to="img-content">Image Content</Link></li>
+                                            <li><Link to="/dropcap">Dropcap</Link></li>
+                                            <li><Link to="/errorPage">Error</Link></li>
+                                            <li><Link to="/faq">F.A.Q</Link></li>
+                                            <li><Link to="/featurePage">Feature Box</Link></li>
+                                            <li><Link to="/imgContent">Image Content</Link></li>
                                         </ul>
                                     </div>
                                     <div className="col-md-3 col-sm-6">
                                         <ul className="last-child">
-                                            <li><Link to="piechart">Pie Chart</Link></li>
-                                            <li><Link to="pricing-table">Pricing Table</Link></li>
-                                            <li><Link to="team">Team</Link></li>
-                                            <li><Link to="testimonial">Testimonial</Link></li>
-                                            <li><Link to="typography">Typography</Link></li>
+                                            <li><Link to="/piechart">Pie Chart</Link></li>
+                                            <li><Link to="/pricingTable">Pricing Table</Link></li>
+                                            <li><Link to="/team">Team</Link></li>
+                                            <li><Link to="/testimonial">Testimonial</Link></li>
+                                            <li><Link to="/typography">Typography</Link></li>
                                         </ul>
                                     </div>
                                 </div>

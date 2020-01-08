@@ -24,7 +24,7 @@ const list = [
 const Element = ({ imgSource, title, tag }) => (
     <div className="col-md-3 col-sm-6 html">
         <div className="portfolio-post-2 mb30">
-            <img src={imgSource} alt="Portfolio Image"  />
+            <img src={imgSource} alt="theshahriyar"  />
             <div className="portfolio-details">
                 <h4>{title}</h4>
                 <p>{tag}</p>
