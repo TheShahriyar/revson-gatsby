@@ -6,30 +6,10 @@ export default class NavbarStyle2 extends Component {
     scrolled: false,
   }
 
-  componentDidMount() {
-    window.addEventListener("scroll", () => {
-      let pageScroll = window.scrollY > 800
-
-      if (pageScroll) {
-        this.setState({
-          scrolled: true,
-        })
-      } else {
-        this.setState({
-          scrolled: false,
-        })
-      }
-    })
-  }
-
-  // componentWillUnmount() {
-  //     window.removeEventListener("scroll");
-  // }
-
   render() {
     const { navbarStyle } = this.props
     return (
-      <header className={`${this.state.scrolled ? "navbar-fixed-top" : ""}`}>
+      <header>
         <nav
           className={`navbar navbar-expand-lg bottom-nav boxed-width ${navbarStyle}`}
         >
