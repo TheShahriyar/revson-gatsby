@@ -19,8 +19,8 @@ import Card from "react-bootstrap/Card"
 import PortfolioCol3Style2 from "../components/Portfolio/PortfolioCol3Style2"
 import CallToAction from "../components/CallToAction/CallToAction"
 import TeamStyle2 from "../components/Team/TeamStyle2"
-import Testimonial2 from "../components/Testimonial2"
 import FooterStyle1 from "../components/Footer/FooterStyle1"
+import Testimonial from "../components/Testimonial"
 
 const Homepage3 = () => {
   return (
@@ -352,7 +352,22 @@ const Homepage3 = () => {
       {/* End Subscription Section*/}
 
       {/* Start Testimonial Section*/}
-      <Testimonial2 />
+      <section
+      className="pad80 parallax"
+    >
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <SectionTitle title="What people say" />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+              <Testimonial/>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* End Testimonial Section*/}
 
       {/* Start Footer Section*/}

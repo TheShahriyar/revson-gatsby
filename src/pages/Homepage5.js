@@ -5,6 +5,12 @@ import Bg5 from "../images/bg/bg5.jpg"
 import Bg6 from "../images/bg/bg6.jpg"
 import HumanImg from "../images/others/img-026.png"
 import Bg9 from "../images/bg/bg9.jpg"
+import Client1 from "../images/client/1.png"
+import Client2 from "../images/client/2.png"
+import Client3 from "../images/client/3.png"
+import Client4 from "../images/client/4.png"
+import Client5 from "../images/client/5.png"
+import Client6 from "../images/client/6.png"
 
 import HeaderStyle1 from "../components/Header/HeaderStyle1"
 import BootstrapSlider from "../components/Slideshow/BootstrapSlider"
@@ -14,9 +20,8 @@ import FeatureStyle2 from "../components/Features/FeatureStyle2"
 import FeatureStyle3 from "../components/Features/FeatureStyle3"
 import CallToAction3 from "../components/CallToAction/CallToAction3"
 import PortfolioCol3Style1 from "../components/Portfolio/PortfolioCol3Style1"
-import Clients from "../components/Clients"
-import Testimonial2 from "../components/Testimonial2"
 import FooterStyle1 from "../components/Footer/FooterStyle1"
+import Testimonial from "../components/Testimonial"
 
 const Homepage5 = () => {
   return (
@@ -332,15 +337,15 @@ const Homepage5 = () => {
       {/* End Progressive chart Section */}
 
       {/* Start Features Section */}
-      <section class="pad-t80 pad-b50">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
+      <section className="pad-t80 pad-b50">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
               <SectionTitle title="More Services" />
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
+          <div className="row">
+            <div className="col-md-6">
               <FeatureStyle3
                 bgColor="#f2f2f2"
                 featureStyle="text-center"
@@ -349,7 +354,7 @@ const Homepage5 = () => {
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris consectetur adipisicing elit, nisi ut aliquip."
               />
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <FeatureStyle3
                 bgColor="#f2f2f2"
                 featureStyle="text-center"
@@ -358,7 +363,7 @@ const Homepage5 = () => {
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris consectetur adipisicing elit, nisi ut aliquip."
               />
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <FeatureStyle3
                 bgColor="#f2f2f2"
                 featureStyle="text-center"
@@ -367,7 +372,7 @@ const Homepage5 = () => {
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris consectetur adipisicing elit, nisi ut aliquip."
               />
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <FeatureStyle3
                 bgColor="#f2f2f2"
                 featureStyle="text-center"
@@ -443,19 +448,50 @@ const Homepage5 = () => {
       {/* End Subscription Section*/}
 
       {/* Start Testimonial Section*/}
-      <section class="pad80 parallax" style={{ backgroundColor: "#fff" }}>
-        <div class="container">
-          <div class="row">
+      <section className="pad80 parallax" style={{ backgroundColor: "#fff" }}>
+        <div className="container">
+          <div className="row">
             <div className="col-md-12">
               <SectionTitle title="What People Say" />
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6 mbl-margin-bottom">
-              <Clients />
+          <div className="row">
+            <div className="col-md-6 mbl-margin-bottom">
+              <ul className="logo-group width33">
+                <li className="client-logo">
+                  <a href="#">
+                    <img src={Client1} alt="Client's Logo" />
+                  </a>
+                </li>
+                <li className="client-logo">
+                  <a href="#">
+                    <img src={Client2} alt="Client's Logo" />
+                  </a>
+                </li>
+                <li className="client-logo">
+                  <a href="#">
+                    <img src={Client3} alt="Client's Logo" />
+                  </a>
+                </li>
+                <li className="client-logo">
+                  <a href="#">
+                    <img src={Client4} alt="Client's Logo" />
+                  </a>
+                </li>
+                <li className="client-logo">
+                  <a href="#">
+                    <img src={Client5} alt="Client's Logo" />
+                  </a>
+                </li>
+                <li className="client-logo">
+                  <a href="#">
+                    <img src={Client6} alt="Client's Logo" />
+                  </a>
+                </li>
+              </ul>
             </div>
-            <div class="col-md-6">
-              <Testimonial2 />
+            <div className="col-md-6">
+              <Testimonial/>
             </div>
           </div>
         </div>

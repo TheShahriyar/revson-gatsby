@@ -5,6 +5,7 @@ import FeatureStyle1 from "../components/Features/FeatureStyle1"
 import img2 from "../images/others/img-2.jpg"
 import Human from "../images/others/02.png"
 import BG6 from "../images/bg/bg6.jpg"
+import BG2 from "../images/bg/bg2.jpg"
 import FeatureStyle2 from "../components/Features/FeatureStyle2"
 import CallToAction2 from "../components/CallToAction/CallToAction2"
 import PortfolioCol3Style1 from "../components/Portfolio/PortfolioCol3Style1"
@@ -341,7 +342,23 @@ const Homepage1 = () => {
       {/* End Pricing Table Section*/}
 
       {/* Start Testimonial Section*/}
-      <Testimonial />
+      <section
+      className="pad80 parallax"
+      style={{ backgroundImage: `url(${BG2})` }}
+    >
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <SectionTitle title="What people say" titleStyle="white" />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+              <Testimonial textStyle="white"/>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* End Testimonial Section*/}
 
       {/* Start Client Section*/}

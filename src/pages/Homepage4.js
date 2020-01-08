@@ -33,9 +33,9 @@ import FeatureStyle6 from "../components/Features/FeatureStyle6"
 import SectionTitle from "../components/SectionTitle/SectionTitle"
 import FeatureStyle7 from "../components/Features/FeatureStyle7"
 import TeamStyle4 from "../components/Team/TeamStyle4"
-import Testimonial2 from "../components/Testimonial2"
 import Clients from "../components/Clients"
 import FooterStyle1 from "../components/Footer/FooterStyle1"
+import Testimonial from "../components/Testimonial"
 
 const Homepage4 = () => {
   return (
@@ -285,7 +285,22 @@ const Homepage4 = () => {
       {/* End Team Member Section */}
 
       {/* Start Testimonial Section*/}
-      <Testimonial2 />
+      <section
+      className="pad80 parallax"
+    >
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <SectionTitle title="What people say" />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+              <Testimonial/>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* End Testimonial Section*/}
 
       {/* Start Latest News Section*/}

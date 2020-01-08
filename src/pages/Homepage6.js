@@ -13,8 +13,8 @@ import ReactMinimalPieChart from "react-minimal-pie-chart"
 import TeamStyle1 from "../components/Team/TeamStyle1"
 import CallToAction2 from "../components/CallToAction/CallToAction2"
 import FeatureStyle3 from "../components/Features/FeatureStyle3"
-import Testimonial2 from "../components/Testimonial2"
 import FooterStyle1 from "../components/Footer/FooterStyle1"
+import Testimonial from "../components/Testimonial"
 
 const Homepage6 = () => {
   return (
@@ -337,15 +337,15 @@ const Homepage6 = () => {
       {/* End Call to Action Section*/}
 
       {/* Start Features Section */}
-      <section class="pad-t80 pad-b50">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
+      <section className="pad-t80 pad-b50">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
               <SectionTitle title="More Services" />
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
+          <div className="row">
+            <div className="col-md-6">
               <FeatureStyle3
                 bgColor="#f2f2f2"
                 featureStyle="text-center"
@@ -354,7 +354,7 @@ const Homepage6 = () => {
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris consectetur adipisicing elit, nisi ut aliquip."
               />
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <FeatureStyle3
                 bgColor="#f2f2f2"
                 featureStyle="text-center"
@@ -363,7 +363,7 @@ const Homepage6 = () => {
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris consectetur adipisicing elit, nisi ut aliquip."
               />
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <FeatureStyle3
                 bgColor="#f2f2f2"
                 featureStyle="text-center"
@@ -372,7 +372,7 @@ const Homepage6 = () => {
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris consectetur adipisicing elit, nisi ut aliquip."
               />
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <FeatureStyle3
                 bgColor="#f2f2f2"
                 featureStyle="text-center"
@@ -411,7 +411,7 @@ const Homepage6 = () => {
                     <input
                       type="email"
                       className="form-control"
-                      id="Email1"
+                      id="SUbscriptionEmail1"
                       placeholder="Subscribe with us"
                     />
                     <button type="submit" className="btn btn-default">
@@ -427,7 +427,22 @@ const Homepage6 = () => {
       {/* End Subscription Section*/}
 
       {/* Start Testimonial Section*/}
-      <Testimonial2 />
+      <section
+      className="pad80 parallax"
+    >
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <SectionTitle title="What people say" />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+              <Testimonial/>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* End Testimonial Section*/}
 
       {/* Start FOoter Section*/}

@@ -7,6 +7,7 @@ import FeatureImg1 from "../images/others/img-8.jpg"
 import FeatureImg2 from "../images/others/img-4.jpg"
 import FeatureImg3 from "../images/others/img-9.jpg"
 import Bg1 from "../images/bg/bg1.jpg"
+import Bg2 from "../images/bg/bg2.jpg"
 import BG6 from "../images/bg/bg6.jpg"
 import Img1 from "../images/others/img-1.jpg"
 
@@ -360,7 +361,23 @@ const Homepage2 = () => {
       {/* End Latest News Section*/}
 
       {/* Start Testimonial Section*/}
-      <Testimonial />
+      <section
+      className="pad80 parallax"
+      style={{ backgroundImage: `url(${Bg2})` }}
+    >
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <SectionTitle title="What people say" titleStyle="white" />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+              <Testimonial textStyle="white" />
+            </div>
+          </div>
+        </div>
+      </section>
       {/* End Testimonial Section*/}
 
       {/* Start Client Section*/}
