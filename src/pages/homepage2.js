@@ -28,7 +28,7 @@ import FooterStyle1 from "../components/Footer/FooterStyle1"
 const Homepage2 = () => {
   return (
     <>
-      <HeaderStyle2 headerStyle="dark-color" />
+      <HeaderStyle2 headerStyle="boxed-width dark-color" />
       <Banner bannerstyle="text-center" bgImg={BannerImg}>
         <h1>
           Welcome to <span>Revson</span>

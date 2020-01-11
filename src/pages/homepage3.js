@@ -25,7 +25,7 @@ import Testimonial from "../components/Testimonial"
 const Homepage3 = () => {
   return (
     <>
-      <HeaderStyle2 headerStyle="primary-color" />
+      <HeaderStyle2 headerStyle="boxed-width primary-color" />
       <Banner bannerstyle="text-center" bgImg={BannerImg}>
         <h1>
           Welcome to <span>Revson</span>

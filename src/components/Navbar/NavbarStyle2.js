@@ -11,7 +11,7 @@ export default class NavbarStyle2 extends Component {
     return (
       <header>
         <nav
-          className={`navbar navbar-expand-lg bottom-nav boxed-width ${navbarStyle}`}
+          className={`navbar navbar-expand-lg bottom-nav ${navbarStyle}`}
         >
           <div className="container">
             <button
