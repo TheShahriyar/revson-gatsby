@@ -22,7 +22,7 @@ const list = [
 
 
 const Element = ({ imgSource, title, tag }) => (
-    <div className="col-md-3 col-sm-6 html">
+    <div className="col-md-3 col-sm-6">
         <div className="portfolio-post-2 mb30">
             <img src={imgSource} alt="theshahriyar"  />
             <div className="portfolio-details">

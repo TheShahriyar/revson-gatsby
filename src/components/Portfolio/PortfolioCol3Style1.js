@@ -18,7 +18,7 @@ const list = [
 
 
 const Element = ({ imgSource, title, tag }) => (
-    <div className="col-md-4 col-sm-6 html">
+    <div className="col-md-4 col-sm-6">
         <div className="portfolio-post-2 mb30">
             <img src={imgSource} alt="Portfolio Image"  />
             <div className="portfolio-details">

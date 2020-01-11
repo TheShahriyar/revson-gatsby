@@ -18,23 +18,21 @@ const list = [
 
 
 const Element = ({ imgSource, title, tag }) => (
-    <div className="col-md-4 col-sm-6">
-        <div className="portfolio-post mb30">
-            <img src={imgSource} alt="theshahriyar"/>
-            <div className="hover-box">
-                <div className="inner-hover">
-                    <h4>{title}</h4>
-                    <p>{tag}</p>
-                    <a href="#"><i className="icon-attachment"></i></a>
-                </div>                      
-            </div>
+    <div className="col-md-6 col-sm-6">
+        <div className="portfolio-post-2 mb30">
+            <img src={imgSource} alt="Portfolio Image"  />
+            <div className="portfolio-details">
+                <h4>{title}</h4>
+                <p>{tag}</p>
+                <a href="#"><i className="icon-attachment"></i></a>
+            </div>                   
         </div>
     </div>
 
     
 );
 
-const PortfolioCol3Style2 = () => {
+const PortfolioCol2Style1 = () => {
     const [display, setDisplay] = useState(list);
 
     const handleDisplay = category => {
@@ -59,4 +57,4 @@ const PortfolioCol3Style2 = () => {
     )
 }
 
-export default PortfolioCol3Style2
+export default PortfolioCol2Style1

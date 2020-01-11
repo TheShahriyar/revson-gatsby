@@ -18,7 +18,7 @@ const list = [
 
 
 const Element = ({ imgSource, title, tag }) => (
-    <div className="col-md-4 col-sm-6">
+    <div className="col-md-3 col-sm-6">
         <div className="portfolio-post mb30">
             <img src={imgSource} alt="theshahriyar"/>
             <div className="hover-box">
@@ -34,7 +34,7 @@ const Element = ({ imgSource, title, tag }) => (
     
 );
 
-const PortfolioCol3Style2 = () => {
+const PortfolioCol4Style2 = () => {
     const [display, setDisplay] = useState(list);
 
     const handleDisplay = category => {
@@ -59,4 +59,4 @@ const PortfolioCol3Style2 = () => {
     )
 }
 
-export default PortfolioCol3Style2
+export default PortfolioCol4Style2
