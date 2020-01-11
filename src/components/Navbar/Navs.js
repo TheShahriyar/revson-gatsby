@@ -62,7 +62,7 @@ const Navs = ({style}) => {
                         <li><Link to="/aboutUs1">About Us 1</Link></li>
                         <li><Link to="/aboutUs2">About Us 2</Link></li>
                         <li><Link to="/servicePage1">Service Page 1</Link></li>
-                        <li><Link to="/servicePage1">Service Page 2</Link></li>
+                        <li><Link to="/servicePage2">Service Page 2</Link></li>
                         <li><Link to="/teamMember">Team Member</Link></li>
                         <li><Link to="/contact">Contact Page</Link></li>
                         <li><Link to="/faq">F.A.Q</Link></li>
