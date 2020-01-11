@@ -50,7 +50,6 @@ const Navs = ({style}) => {
                             <ul className="drop-down level3">
                                 <li><Link to="/footer1">Footer 1</Link></li>
                                 <li><Link to="/footer2">Footer 2</Link></li>
-                                <li><Link to="/footer3">Footer 3</Link></li>
                             </ul>
                         </li>
                     </ul>
