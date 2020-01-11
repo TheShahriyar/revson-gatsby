@@ -6,6 +6,10 @@ import Img4 from "../images/others/img-9.jpg"
 import Human from "../images/others/02.png"
 import ParalaxBg from "../images/bg/parallax2.jpg"
 import Bg8 from "../images/bg/bg8.jpg"
+import Team1 from "../images/team/team1.jpg"
+import Team2 from "../images/team/team2.jpg"
+import Team3 from "../images/team/team3.jpg"
+import Team4 from "../images/team/team4.jpg"
 
 import { FaCheckCircle } from "react-icons/fa"
 
@@ -306,7 +310,20 @@ const Homepage3 = () => {
               <SectionTitle title="Team Member" />
             </div>
           </div>
-          <TeamStyle2 />
+          <div className="row">
+            <div className="col-md-3 col-sm-6">
+                <TeamStyle2 teamImage={Team1} name="Mr. John Doe" designation="Web Developer" fbLink="#" twLink="#" googleLink="#" otherLink="#" />
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <TeamStyle2 teamImage={Team2} name="Mr. John Doe" designation="Web Developer" fbLink="#" twLink="#" googleLink="#" otherLink="#" />
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <TeamStyle2 teamImage={Team3} name="Mr. John Doe" designation="Web Developer" fbLink="#" twLink="#" googleLink="#" otherLink="#" />
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <TeamStyle2 teamImage={Team4} name="Mr. John Doe" designation="Web Developer" fbLink="#" twLink="#" googleLink="#" otherLink="#" />
+            </div>
+        </div>
         </div>
       </section>
       {/* End Team Member Section*/}
