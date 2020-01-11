@@ -69,9 +69,9 @@ const Navs = ({style}) => {
                     </ul>
                 </li>
                 <li className="nav-item drop">
-                    <Link className="nav-link" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Portfolio
-                    </Link>
+                    </a>
                     <ul className="drop-down" aria-labelledby="navbarDropdown">
                         <li><Link to="/portfolio2ColSt1">Portfolio 2 Col St 1</Link></li>
                         <li><Link to="/portfolio2ColSt2">Portfolio 2 Col St 2</Link></li>
@@ -131,22 +131,22 @@ const Navs = ({style}) => {
                     </div>
                 </li>
                 <li className="nav-item drop">
-                    <Link className="nav-link" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Blog
-                    </Link>
+                    </a>
                     <ul className="drop-down" aria-labelledby="navbarDropdown">
-                        <li><Link className="dropdown-item" to="blog">Blog Full Width</Link></li>
-                        <li><Link className="dropdown-item" to="blog">Blog Left Sidebar</Link></li>
-                        <li><Link className="dropdown-item" to="blog">Blog Right Sidebar</Link></li>
-                        <li><Link className="dropdown-item" to="blog">Blog Single Page</Link></li>
-                        <li><Link className="dropdown-item" to="blog">Single Left Sidebar</Link></li>
-                        <li><Link className="dropdown-item" to="blog">Single Right Sidebar</Link></li>
+                        <li><Link className="dropdown-item" to="/blog">Blog Full Width</Link></li>
+                        <li><Link className="dropdown-item" to="/blog">Blog Left Sidebar</Link></li>
+                        <li><Link className="dropdown-item" to="/blog">Blog Right Sidebar</Link></li>
+                        <li><Link className="dropdown-item" to="/blog">Blog Single Page</Link></li>
+                        <li><Link className="dropdown-item" to="/blog">Single Left Sidebar</Link></li>
+                        <li><Link className="dropdown-item" to="/blog">Single Right Sidebar</Link></li>
                     </ul>
                 </li>
                 <li className="nav-item megadrop">
-                    <Link className="nav-link" to="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Contact
-                    </Link>
+                    </a>
                     <div className="megadrop-down">
                         <div className="container">
                             <div className="dropdown w-100">
@@ -166,7 +166,7 @@ const Navs = ({style}) => {
                                                         </div>
                                                     </div>
                                                     <div className="media-body">
-                                                        <a to="#">
+                                                        <a href="#">
                                                             <h3 className="media-heading">ADDRESS</h3>
                                                         </a>
                                                         <p>Flat: 34/A, Plot: 345, City: Unknown, Country: Unknown</p>
@@ -181,7 +181,7 @@ const Navs = ({style}) => {
                                                         </div>
                                                     </div>
                                                     <div className="media-body">
-                                                        <a to="#">
+                                                        <a href="#">
                                                             <h3 className="media-heading">E-mail</h3>
                                                         </a>
                                                         <p>email@example.com</p>
@@ -196,7 +196,7 @@ const Navs = ({style}) => {
                                                         </div>
                                                     </div>
                                                     <div className="media-body">
-                                                        <a to="#">
+                                                        <a href="#">
                                                             <h3 className="media-heading">Phone</h3>
                                                         </a>
                                                         <p>+880123456789</p>
