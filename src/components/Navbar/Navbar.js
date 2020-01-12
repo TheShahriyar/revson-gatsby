@@ -25,10 +25,6 @@ export default class Navbar extends Component {
         })
     }
 
-    // componentWillUnmount() {
-    //     window.removeEventListener("scroll");
-    // }
-
     render() {
         return (
             <header className={`${this.state.scrolled ? "navbar-fixed-top" : ""}`}>
