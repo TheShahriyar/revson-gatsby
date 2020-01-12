@@ -194,7 +194,7 @@ const Homepage6 = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <SectionTitle title="Work Progress" style="white" />
+              <SectionTitle title="Work Progress" titleStyle="white" />
             </div>
           </div>
           <div className="row">

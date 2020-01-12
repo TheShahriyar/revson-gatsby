@@ -107,23 +107,23 @@ const Navs = ({style}) => {
                                             <li><Link to="/alertPage">Alert</Link></li>
                                             <li><Link to="/accordionPage">Accordion</Link></li>
                                             <li><Link to="/animatedCounterPage">Animated Counter</Link></li>
+                                            <li><Link to="/badgePage">Badge</Link></li>
                                             <li><Link to="/blockquotePage">Block Quote</Link></li>
-                                            <li><Link to="/blogContentPage">Blog Content</Link></li>
                                         </ul>
                                     </div>
                                     <div className="col-md-3 col-sm-6">
                                         <ul>
-                                            <li><Link to="/bootstrapGrid">Bootstrap Grid</Link></li>
-                                            <li><Link to="/sliderBootstrap">Carousel</Link></li>
+                                            <li><Link to="/spinnerPage">Spinner</Link></li>
+                                            <li><Link to="/sliderPage">Carousel</Link></li>
                                             <li><Link to="/callToActionPage">Call to Action</Link></li>
                                             <li><Link to="/clientPage">Clients</Link></li>
-                                            <li><Link to="/dividerPage">Divider</Link></li>
+                                            <li><Link to="/progressBarPage">Progress Bar</Link></li>
                                         </ul>
                                     </div>
                                     <div className="col-md-3 col-sm-6">
                                         <ul>
                                             <li><Link to="/dropcapPage">Dropcap</Link></li>
-                                            <li><Link to="/errorPage">Error</Link></li>
+                                            <li><Link to="/404">Error</Link></li>
                                             <li><Link to="/faq">F.A.Q</Link></li>
                                             <li><Link to="/featurePage">Feature Box</Link></li>
                                             <li><Link to="/imgContentPage">Image Content</Link></li>
