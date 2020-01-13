@@ -26,7 +26,7 @@ const Testimonial = ({textStyle}) => {
         <div className="name">Shahriyar Ahmed</div>
         <div className="designation">Web Developer</div>
       </div>
-      <div className="testimonial-item text-center white">
+      <div className={`testimonial-item text-center ${textStyle}`}>
         <p>
           Curabitur non nulla sit amet nisl tempus convallis quis ac
           lectus. Proin eget tortor risus. Mauris blandit aliquet elit,

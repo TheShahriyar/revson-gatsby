@@ -125,15 +125,14 @@ const Navs = ({style}) => {
                                             <li><Link to="/dropcapPage">Dropcap</Link></li>
                                             <li><Link to="/404">Error</Link></li>
                                             <li><Link to="/faq">F.A.Q</Link></li>
-                                            <li><Link to="/featurePage">Feature Box</Link></li>
-                                            <li><Link to="/imgContentPage">Image Content</Link></li>
+                                            <li><Link to="/featuresPage">Feature Box</Link></li>
+                                            <li><Link to="/piechartPage">Pie Chart</Link></li>
                                         </ul>
                                     </div>
                                     <div className="col-md-3 col-sm-6">
                                         <ul className="last-child">
-                                            <li><Link to="/piechartPage">Pie Chart</Link></li>
                                             <li><Link to="/pricingTablePage">Pricing Table</Link></li>
-                                            <li><Link to="/teamPage">Team</Link></li>
+                                            <li><Link to="/teamMember">Team</Link></li>
                                             <li><Link to="/testimonialPage">Testimonial</Link></li>
                                             <li><Link to="/typographyPage">Typography</Link></li>
                                         </ul>

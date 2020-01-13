@@ -4,16 +4,16 @@ import BreadcrumbSection from '../components/BreadcrumbSection'
 import BreadcrumbBg from "../images/bg/breadcrumb4.jpg"
 import SectionTitle from '../components/SectionTitle/SectionTitle'
 import FooterStyle1 from '../components/Footer/FooterStyle1'
-import BootstrapSlider from '../components/Slideshow/BootstrapSlider'
+import PricingTable from '../components/PricingTable'
 
-const sliderPage = () => {
+const PricingTablePage = () => {
     return (
         <>
             <HeaderStyle1 />
-            <BreadcrumbSection breadcrumbBg={BreadcrumbBg} parentPath="Element" pageTitle="Carousel" />
+            <BreadcrumbSection breadcrumbBg={BreadcrumbBg} parentPath="Element" pageTitle="Pricing Table" />
 
             <section className="pad80">
-                <div className="container-fluid">
+                <div className="container">
                     <div className="row">
                         <div className="col-md-12">
                             <SectionTitle title="Carousel" />
@@ -21,7 +21,7 @@ const sliderPage = () => {
                     </div>
                     <div className="row">
                         <div className="col-md-12">
-                            <BootstrapSlider/>
+                            <PricingTable/>
                         </div>
                     </div>
                 </div>
@@ -33,4 +33,4 @@ const sliderPage = () => {
     )
 }
 
-export default sliderPage
+export default PricingTablePage
