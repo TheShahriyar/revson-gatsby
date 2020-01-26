@@ -24,35 +24,9 @@ const PricingTable = () => {
           </div>
           <div className="pricing-body">
             <ul>
-              <li>
-                Basic Feature{" "}
-                <FaQuestionCircle
-                  data-toggle="tooltip"
-                  data-placement="left"
-                  title=""
-                  data-original-title="Something more about this"
-                />
-              </li>
-              <li>
-                One User{" "}
-                <i
-                  className="fa fa-question-circle"
-                  data-toggle="tooltip"
-                  data-placement="left"
-                  title=""
-                  data-original-title="Something more about this"
-                ></i>
-              </li>
-              <li>
-                10 Records{" "}
-                <i
-                  className="fa fa-question-circle"
-                  data-toggle="tooltip"
-                  data-placement="left"
-                  title=""
-                  data-original-title="Something more about this"
-                ></i>
-              </li>
+              <li>Basic Feature</li>
+              <li>One User</li>
+              <li>10 Records</li>
               <li>Basic Feature</li>
               <li>One User</li>
               <li>More Records</li>
@@ -82,36 +56,9 @@ const PricingTable = () => {
           </div>
           <div className="pricing-body">
             <ul>
-              <li>
-                Basic Feature{" "}
-                <i
-                  className="fa fa-question-circle"
-                  data-toggle="tooltip"
-                  data-placement="left"
-                  title=""
-                  data-original-title="Something more about this"
-                ></i>
-              </li>
-              <li>
-                One User{" "}
-                <i
-                  className="fa fa-question-circle"
-                  data-toggle="tooltip"
-                  data-placement="left"
-                  title=""
-                  data-original-title="Something more about this"
-                ></i>
-              </li>
-              <li>
-                10 Records{" "}
-                <i
-                  className="fa fa-question-circle"
-                  data-toggle="tooltip"
-                  data-placement="left"
-                  title=""
-                  data-original-title="Something more about this"
-                ></i>
-              </li>
+              <li>Basic Feature</li>
+              <li>One User</li>
+              <li>10 Records</li>
               <li>Basic Feature</li>
               <li>One User</li>
               <li>More Records</li>
@@ -141,36 +88,9 @@ const PricingTable = () => {
           </div>
           <div className="pricing-body">
             <ul>
-              <li>
-                Basic Feature{" "}
-                <i
-                  className="fa fa-question-circle"
-                  data-toggle="tooltip"
-                  data-placement="left"
-                  title=""
-                  data-original-title="Something more about this"
-                ></i>
-              </li>
-              <li>
-                One User{" "}
-                <i
-                  className="fa fa-question-circle"
-                  data-toggle="tooltip"
-                  data-placement="left"
-                  title=""
-                  data-original-title="Something more about this"
-                ></i>
-              </li>
-              <li>
-                10 Records{" "}
-                <i
-                  className="fa fa-question-circle"
-                  data-toggle="tooltip"
-                  data-placement="left"
-                  title=""
-                  data-original-title="Something more about this"
-                ></i>
-              </li>
+              <li>Basic Feature</li>
+              <li>One User</li>
+              <li>10 Records</li>
               <li>Basic Feature</li>
               <li>One User</li>
               <li>More Records</li>
