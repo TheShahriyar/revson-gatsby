@@ -16,11 +16,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     {
-      resolve: "gatsby-plugin-web-font-loader",
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        google: {
-          families: ["Poppins", "sans-serif"],
-        },
+        fonts: [
+          `Poppins\:300,400,500,600,700`, // you can also specify font weights and styles
+        ],
+        display: "swap",
       },
     },
     {
