@@ -6,5 +6,11 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import "../scss/style.scss"
 import Homepage1 from "./homepage1"
+import SEO from "../SEO"
 
-export default () => <Homepage1/>
+export default () => (
+  <>
+    <SEO title="Revson- React Gatsby Multipurpose Template" />
+    <Homepage1 />
+  </>
+)
