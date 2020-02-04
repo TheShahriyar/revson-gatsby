@@ -2,6 +2,7 @@ import React from "react"
 import TopHeader from "./TopHeader"
 import Logo from "../../images/logo/logo.png"
 import NavbarStyle2 from "../Navbar/NavbarStyle2"
+import { Link } from "gatsby"
 
 const HeaderStyle2 = ({ headerStyle }) => {
   return (
@@ -11,9 +12,9 @@ const HeaderStyle2 = ({ headerStyle }) => {
         <div className="container">
           <div className="row">
             <div className="col-md-3">
-              <a className="navbar-brand separate" href="index.html">
+              <Link className="navbar-brand separate" to="/">
                 <img alt="" src={Logo} />
-              </a>
+              </Link>
             </div>
             <div className="col-md-3 hidden-xs">
               <div className="header-address pull-right">
