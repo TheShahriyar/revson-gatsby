@@ -5,6 +5,7 @@ import "../css/lineicon.css"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import "../scss/style.scss"
+import "../scss/responsive.scss"
 import Homepage1 from "./homepage1"
 import SEO from "../SEO"
 

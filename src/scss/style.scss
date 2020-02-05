@@ -385,7 +385,9 @@ Author URI: http://theshahriyar.com
 
 
 @media (min-width : 992px) {
-    
+  #main-slide .carousel-item {
+		height: auto;
+	}  
     #main-slide .slider-content h1{
 		font-size: 68px;
 	}
@@ -393,7 +395,9 @@ Author URI: http://theshahriyar.com
 
 
 @media (min-width : 768px) and (max-width: 991px) {
-    
+  #main-slide .carousel-item {
+		height: auto;
+	} 
     #main-slide .slider-content h1{
 		font-size: 35px;
         margin-bottom: 10px;
@@ -419,7 +423,10 @@ Author URI: http://theshahriyar.com
 
 
 @media (max-width : 767px) {
-    
+	
+	#main-slide .carousel-item {
+		height: auto;
+	}
     #main-slide .slider-content h1{
 		font-size: 28px;
 		line-height: normal;
